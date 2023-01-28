@@ -67,3 +67,6 @@ require'nvim-treesitter.configs'.setup {
 require("which-key").setup {
 	timeoutlen=0
 }
+
+-- set the colorscheme to morning
+vim.cmd('colorscheme morning')
